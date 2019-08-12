@@ -40,5 +40,5 @@ evaluation_file_path是生成的评估结果文档路径。
 全部设置好之后，最后调用r.convert_and_evaluate()即可。
 
 
-#注意
+# 注意
 pyrouge本质上是对ROUGE-1.5.5的使用进行封装，在得到cmd命令后，启动子程序时，如果出现 %1 不是win32程序 错误，需要修改pyrouge中调用子程序部分，添加参数shell=True，以shell形式运行。
