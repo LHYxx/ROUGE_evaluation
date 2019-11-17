@@ -21,7 +21,7 @@ output = r.convert_and_evaluate()
 ```
 r.system_dir是系统生成的摘要的保存路径
 r.model_dir是golden摘要路径
-然后设置文件名称，可以使用正则表达式，例如：
+然后设置文件名称，使用如下格式，例如：
 some_name.(\d+).txt
 ```
 summarization.1.txt
